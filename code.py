@@ -14,3 +14,10 @@ def pet_axolotl():
     photo = ImageTk.PhotoImage(image)
     label.config(image=photo)
     label.image = photo
+
+window = tk.Tk()
+window.title("Axolotls")
+window.geometry("1200x800")
+window.resizeable(False, False)
+prompt = tk.Label(window,text = "Click the button for an axolotl",font = ("Arial, 16"))
+prompt.pack(pady = 10)
