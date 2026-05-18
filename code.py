@@ -18,7 +18,7 @@ def pet_axolotl():
 window = tk.Tk()
 window.title("Axolotls")
 window.geometry("1200x800")
-window.resizeable(False, False)
+window.resizable(False, False)
 prompt = tk.Label(window,text = "Click the button for an axolotl",font = ("Arial, 16"))
 prompt.pack(pady = 10)
 
